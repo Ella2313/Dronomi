@@ -33,19 +33,19 @@ margin-bottom: 20px;
 
 
 /* ------------------NAVIGATION ----------------- */
-.navb {
-position: fixed;    
+.navb {   
 top: 0;
 display: flex;
-justify-content: space-around;
+align-items: center;
+justify-content: space-;
 width: 100%;
 height: 100px;
 line-height: 100px;
-background:linear-gradient(rgba(38, 35, 0.4), transparent);
+background:linear-gradient(rgb(19, 48, 86,)transparent);
 z-index: 100;
 }
 
-.nav-logo p {
+.logo p {
 color: rgb(255, 255, 255);
 font-size: 25px;
 font-weight: 600;
@@ -56,7 +56,8 @@ display: flex;
 }
 
 .navb-menu ul li {
-list-style-type: none;
+list-style: none;
+display: inline-block;
 }
 
 .navb-menu ul li .link {
