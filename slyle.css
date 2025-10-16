@@ -9,8 +9,8 @@ body {
 text-align: center;
 color: rgb(21, 22, 61);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-margin-top: auto;
-margin-bottom: auto;
+margin-top: 20px;
+margin-bottom: 20px;
 font-size: 1.4em;
 text-transform: uppercase;
 letter-spacing: 2px;
@@ -93,6 +93,54 @@ margin-left: 15px;
 
 .btn.white-btn {
 background:rgba(255, 255, 255, 0.5);
+}
+
+.nav-menu-btn {
+display: none;
+}
+
+
+.form-box {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate( 50%, 50%);
+display:none;
+align-items: center;
+justify-content:center;
+width: 550px;
+height: 550px;
+border-radius: 20px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+z-index: 1000;
+padding: 20px;
+}
+
+.form-box.active {
+display: flex;
+}
+
+.login-contriner,
+.register-conainer {
+position: absolute;
+background: linear-gradient(135deg, #ffecd2, #ffccdd);
+width: 100%;
+padding: 20px;
+display: flex;
+flex-direction: column;
+transition: 0.5s ease-in-out;
+}
+
+.register-container {
+display: none;
+}
+
+.top-span {
+color:#333;
+font-size: small;
+padding: 10px 0;
+display: flex;
+justify-content: center;
 }
 
 
