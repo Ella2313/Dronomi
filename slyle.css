@@ -34,10 +34,11 @@ margin-bottom: 20px;
 
 /* ------------------NAVIGATION ----------------- */
 .navb {   
-top: 0;
+top: -1;
 display: flex;
-align-items: center;
-justify-content: space-;
+align-items: right;
+justify-content: space-between;
+left: 60;
 width: 100%;
 height: 100px;
 line-height: 100px;
@@ -47,8 +48,9 @@ z-index: 100;
 
 .logo p {
 color: rgb(255, 255, 255);
-font-size: 25px;
+font-size: 30px;
 font-weight: 600;
+align-items: right;
 }
 
 .navb-menu ul {
