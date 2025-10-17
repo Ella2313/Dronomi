@@ -45,8 +45,57 @@
 <section class="how-section" id="how" style="display: none">
   <div class="how container">
 <h2>How to use a drone </h2>
-
+<p>n/a</p>
    </div>
   </section>
+
+  <!-------Caution Section--------->
+  <section>
+<div class="caution-section" id="caution" style="display: none">
+  <div class="coation container">
+  <h2>Be careful</h2>
+  <p>n/a</p>
+  </section>
+  <script>
+  const aboutSection = document.getElementById("about");
+  const howSection = document.getElementById("how");
+  const cautionSection = document.getElementById("caution");
+
+  // Toggle About Section
+  function toggleAbout() {
+    howSection.style.display = "none";
+    cautionSection.style.display = "none";
+    if (aboutSection.style.display === "none" || aboutSection.style.display === "") {
+      aboutSection.style.display = "block";
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    } else {
+      aboutSection.style.display = "none";
+    }
+  }
+
+  // Toggle Pet Care Section
+  function toggleHow() {
+    aboutSection.style.display = "none";
+    cautionSection.style.display = "none";
+    if (howSection.style.display === "none" || howSection.style.display === "") {
+      howSection.style.display = "block";
+      howSection.scrollIntoView({ behavior: "smooth" });
+    } else {
+      howSection.style.display = "none";
+    }
+  }
+
+  // Toggle Tips & Facts Section
+  function toggleCaution() {
+    aboutSection.style.display = "none";
+    howSection.style.display = "none";
+    if (cautionSection.style.display === "none" || cautionSection.style.display === "") {
+      cautionSection.style.display = "block";
+      cautionSection.scrollIntoView({ behavior: "smooth" });
+    } else {
+      cautionSection.style.display = "none";
+    }
+  }
+</script>
 </body>
 </html>
