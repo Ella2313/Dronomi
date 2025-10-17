@@ -7,7 +7,7 @@ font-family: 'poppins', sans-serif;
 
 body {
 text-align: center;
-color: rgb(21, 22, 61);
+color: rgb(37, 62, 94);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin-top: 20px;
 margin-bottom: 20px;
@@ -18,7 +18,7 @@ font-weight: bold;
 text-shadow: 1px 1px 2px rgb(43, 47, 96) ;
 background-size: cover;
 background-position: top;
-background-color: rgb(19, 48, 86);
+background-color: rgb(255, 168, 29);
 }
 
 
@@ -442,4 +442,9 @@ position: relative;
   font-size: 1rem;
   line-height: 1.8;
   color: #333;
+}
+
+.image-drone {
+justify-content: center;
+align-items: center;
 }
