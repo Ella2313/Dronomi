@@ -410,14 +410,14 @@ position: relative;
 }
 
 .caution-section {
-width: 100px;
+width: 100%;
 min-height: 100vh;
 display: flex;
-justify-content: center;
+justify-content: center; 
 align-items: center;
 padding: 60px 20px;
 background: linear-gradient(135deg, #397090 0%, #63b4d6 100%); 
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: 'Poppins', sans-serif;
 }
 
 .caution-container {
@@ -432,13 +432,13 @@ position: relative;
 }
 
 .caution-container h2 {
-font-size: 2.2rem;
-margin-bottom: 20px;
-color:#00b4d8;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #00b4d8; 
 }
 
 .caution-container p {
-font-size: 1rem;
-line-height: 1.8;
-color: #333;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
 }
