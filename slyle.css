@@ -157,6 +157,7 @@ padding: 40px;
 border-radius: 20px;
 box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
 text-align: center;
+justify-self: center;
 position: relative;
 }
 
@@ -168,7 +169,7 @@ position: relative;
 
 .about p {
   font-size: 1rem;
-  line-height: 1.8;
+  line-height: 3.8;
   color: #333;
   bottom: 500px;
 }
@@ -186,8 +187,8 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 .how-container {
 max-width: 100%;
-background:rgba(38, 56, 135, 0.9);
-border-left: 5px solid #63b4d6;
+background:rgba(221, 155, 0, 0.9);
+border-left: 5px solid #d6ae63;
 padding: 40px;
 border-radius: 20px;
 box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
@@ -198,7 +199,7 @@ position: relative;
 .how-container h2 {
   font-size: 2.2rem;
   margin-bottom: 20px;
-  color: #00b4d8; 
+  color: #ffc637; 
 }
 
 .how-container p {
@@ -220,8 +221,8 @@ font-family: 'Poppins', sans-serif;
 
 .caution-container {
 max-width: 100%;
-background:rgba(38, 56, 135, 0.9);
-border-left: 5px solid #63b4d6;
+background:rgba(221, 155, 0, 0.9);
+border-left: 5px solid #d6ae63;
 padding: 40px;
 border-radius: 20px;
 box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
@@ -232,7 +233,7 @@ position: relative;
 .caution-container h2 {
   font-size: 2.2rem;
   margin-bottom: 20px;
-  color: #00b4d8; 
+  color: #ffc637; 
 }
 
 .caution-container p {
